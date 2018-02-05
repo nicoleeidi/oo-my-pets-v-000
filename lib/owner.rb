@@ -17,8 +17,9 @@ class Owner
     name= Cat.new(name)
     @pets[:cats] << name
   end
-  def walk_dogs #for all dogs or one dog 
-    @pets[:dogs].map
+  def walk_dogs #for all dogs or one dog
+    @pets[:dogs].map do |dog|
+      dog.mood= "happy"
   end
   def play_with_cats
   end

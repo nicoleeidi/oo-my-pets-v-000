@@ -3,6 +3,7 @@ class Dog
   attr_accessor :mood
   # code goes here
   def initialize(name)
-    @name=name 
-  end 
+    @name=name
+    @mood = nervous
+  end
 end

@@ -1,8 +1,8 @@
 class Owner
-  attr_
+  attr_accessor :name 
   @@all = []
   def initialize(species)
-    @species=species 
+    @species=species
   end
   def say_species
     @species

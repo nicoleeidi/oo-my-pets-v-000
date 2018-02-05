@@ -25,9 +25,11 @@ class Owner
   def play_with_cats
     @pets[:cats].map do |cat|
       cat.mood= "happy"
-    end
+    end 
   end
   def feed_fish
+    @pets[:fishes].map do |fish|
+      fish.mood= "happy"
   end
   def say_species
     @species

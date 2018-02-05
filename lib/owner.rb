@@ -1,9 +1,12 @@
 class Owner
-  attr_reader :species
+  attr_
   @@all = []
   def initialize(species)
     @name=name
   end
+  def say_species
+    @species
+  end 
   def self.all
     @@all
   end

@@ -30,7 +30,7 @@ class Owner
   def feed_fish
     @pets[:fishes].map do |fish|
       fish.mood= "happy"
-    end 
+    end
   end
   def say_species
     @species

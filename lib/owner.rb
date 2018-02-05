@@ -12,6 +12,7 @@ class Owner
     name= Dog.new(name)
   end
   def buy_cat(name)
+    name= Cat.new(name)
   end
   def say_species
     @species

@@ -1,14 +1,14 @@
 class Owner
-  attr_accessor 
+  attr_accessor
   @@all = []
-  def initialize(name)
+  def initialize(species)
     @name=name
-  end 
+  end
   def self.all
     @@all
   end
   def self.reset_all
     @@all = []
-  end 
+  end
   # code goes here
 end

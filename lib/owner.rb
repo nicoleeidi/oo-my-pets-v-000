@@ -7,17 +7,18 @@ class Owner
   end
   def buy_fish(name)
     name= Fish.new(name)
-    @pets[fishes] << name
+    @pets[:fishes] << name
   end
   def buy_dog(name)
     name= Dog.new(name)
-    @pets[dogs] << name
+    @pets[:dogs] << name
   end
   def buy_cat(name)
     name= Cat.new(name)
-    @pets[cats] << name
+    @pets[:cats] << name
   end
-  def walk_dogs
+  def walk_dogs #for all dogs or one dog 
+    @pets[:dogs].map
   end
   def play_with_cats
   end

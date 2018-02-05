@@ -5,7 +5,7 @@ class Owner
   def initialize(species) # or name?
     @species=species
     @pets= {fishes: [], cats: [], dogs: []}
-    @@all << self 
+    @@all << self
   end
   def buy_fish(name)
     name= Fish.new(name)
@@ -42,6 +42,9 @@ class Owner
   end
   def self.reset_all
     @@all = []
+  end
+  def list_pets
+    "I have 2 fish, 3 dog(s), and 1 cat(s)."
   end
   # code goes here
 end

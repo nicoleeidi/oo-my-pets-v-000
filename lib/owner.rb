@@ -20,6 +20,7 @@ class Owner
   def walk_dogs #for all dogs or one dog
     @pets[:dogs].map do |dog|
       dog.mood= "happy"
+    end 
   end
   def play_with_cats
     @pets[:cats].map do |cat|

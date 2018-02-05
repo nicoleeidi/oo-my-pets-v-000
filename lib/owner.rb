@@ -2,11 +2,11 @@ class Owner
   attr_
   @@all = []
   def initialize(species)
-    @name=name
+    @species=species 
   end
   def say_species
     @species
-  end 
+  end
   def self.all
     @@all
   end

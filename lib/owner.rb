@@ -3,6 +3,7 @@ class Owner
   @@all = []
   def initialize(species)
     @species=species
+    @pets= {fishes: [], cats: [], dogs: []}
   end
   def say_species
     @species
